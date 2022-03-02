@@ -1,0 +1,32 @@
+body{
+    background-image: url(img/fondo.jpg);
+    background-position:top center;
+    
+}
+#container{
+    color:ghostwhite;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ #resultado{
+     font-size: 200%;
+     text-align: center;
+     color:ghostwhite;
+ }
+ #subtitulo{
+     font-size: 200%;
+     color: red;
+ }
+ .form-control-plaintext{
+    color:rgb(255, 255, 255);
+    font-size: 300%;
+    text-align: center;
+    
+ }
+ .sinbordefondo {
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    border: 0;
+    text-align: center;
+  }
