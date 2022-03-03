@@ -27,8 +27,8 @@
         <button class="cantProcesos btn btn-primary" id="enviarTiempoProcesos" onclick="crearProceso()">✓</button>
         <br><br><br>
         <h2 id="subtitulo">Ingrese el tipo de proceso</h2>
-        <button id="FCFS" type="button"  class="btnProcesadores btn btn-primary" onclick="calcularTE(); calcularTR(); calcularTP();">FCFS</button>
-        <button  id="FSJ" class="btnProcesadores btn btn-primary" onclick="calcularTE()">FSJ</button>
+        <button id="FCFS" type="button"  class="btnProcesadores btn btn-primary" onclick="calcularTE('FCFS'); calcularTR('FCFS'); calcularTP();">FCFS</button>
+        <button  id="FSJ" class="btnProcesadores btn btn-primary" onclick="calcularTE('SJF'); calcularTR('SJF'); calcularTP();">SJF</button>
         <br><br><br>
     </div>
     <div id="resultado">
@@ -42,6 +42,6 @@
         <h3>Tiempo promedio</h3>
         <input type="text" readonly  class="sinbordefondo" id="tiempoPromedio" value="000000">
     </div>
-        
+   
 </body>
 </html>
